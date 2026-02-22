@@ -1,9 +1,13 @@
 # 🍕 Pizza Sales & Operational Intelligence Dashboard (*Power BI*)
 
-### ✴️ Project Overview
+---
+
+## ✴️ Project Overview
 This project presents an end‑to‑end Pizza Sales & Operational Intelligence Dashboard built using Power BI to analyze product performance, revenue distribution, and kitchen operational efficiency. The objective was to design a clean relational data model, implement robust DAX measures, and deliver executive‑ready insights connecting sales demand with preparation time analysis. The dashboard integrates financial KPIs with operational metrics to simulate a real‑world restaurant performance monitoring system.
 
-### 🎯 Business Objectives
+---
+
+## 🎯 Business Objectives
 - Measure overall Revenue Performance  
 - Identify Top Revenue‑Generating Pizzas  
 - Analyze Product Category & Size Contribution  
@@ -12,7 +16,9 @@ This project presents an end‑to‑end Pizza Sales & Operational Intelligence D
 - Identify Operational Pressure Windows  
 - Design a professional multi‑page interactive dashboard  
 
-### 📂 Dataset Description
+---
+
+## 📂 Dataset Description
 The dataset consists of the following tables:
 
 | Table             | Description                                      |
@@ -22,10 +28,14 @@ The dataset consists of the following tables:
 | `tab_pizzas`       | Pizza attributes (name, category, size, price)   |
 | `tab_operations`   | Kitchen preparation start & end time             |
 
-### 🧱 Data Model Design
+---
+
+## 🧱 Data Model Design
 The model follows a clean relational (star schema) structure ensuring accurate revenue calculation and clean filter propagation across visuals.
 
-### 🧠 Key DAX Measures Implemented
+---
+
+## 🧠 Key DAX Measures Implemented
 **Core Sales KPIs:**  
 - Total Revenue  
 - Total Orders  
@@ -50,7 +60,9 @@ The model follows a clean relational (star schema) structure ensuring accurate r
 - Category‑based conditional formatting  
 - Filter‑sensitive KPI calculations  
 
-### 📊 Dashboard Pages
+---
+
+## 📊 Dashboard Pages
 **1. Executive Overview**  
 - Total Revenue, Orders, Quantity, AOV  
 - Revenue by Category & Size  
@@ -71,7 +83,9 @@ The model follows a clean relational (star schema) structure ensuring accurate r
 - Kitchen Pressure Analysis  
 *Purpose: Connect demand patterns with operational efficiency.*
 
-### ✨ Advanced UX Features
+---
+
+## ✨ Advanced UX Features
 - Multi‑page structured navigation  
 - Dynamic page titles using DAX  
 - Conditional formatting for category‑based styling  
@@ -80,21 +94,27 @@ The model follows a clean relational (star schema) structure ensuring accurate r
 - Balanced visual spacing & consistent formatting  
 - Slicer‑based interactive filtering  
 
-### 🔍 Key Business Insights
+---
+
+## 🔍 Key Business Insights
 - Identified peak sales hours and revenue concentration windows.  
 - Demand spikes aligned with increased preparation time.  
 - High‑volume pizzas not necessarily generating the highest revenue.  
 - Size contribution patterns affecting revenue mix.  
 - Operational pressure during peak demand periods.
 
-### 💡 Business Recommendations
+---
+
+## 💡 Business Recommendations
 - Increase staffing during peak hours.  
 - Monitor prep time during high‑demand windows.  
 - Promote high‑margin pizzas during slower hours.  
 - Consider pricing adjustments for top‑performing sizes.  
 - Use hourly analysis to optimize production planning.
 
-### ✅ KPI Integrity Validation
+---
+
+## ✅ KPI Integrity Validation
 - Cross‑validated revenue = price × quantity  
 - Verified relationship direction for correct filter propagation  
 - Confirmed hour‑based aggregation consistency  
@@ -102,7 +122,9 @@ The model follows a clean relational (star schema) structure ensuring accurate r
 - Validated prep time logic using row‑level calculations  
 - Ensured no circular dependencies in model  
 
-### 🛠️ Tools Used
+---
+
+## 🛠️ Tools Used
 - Power BI Desktop  
 - DAX (Advanced Filter Context Handling)  
 - Data Modeling (Star Schema Principles)  
@@ -110,7 +132,9 @@ The model follows a clean relational (star schema) structure ensuring accurate r
 - Relational Data Modeling  
 - CSV data sources  
 
-### 📌 Portfolio Value
+---
+
+## 📌 Portfolio Value
 This project demonstrates:
 - End‑to‑end BI development  
 - Strong relational data modeling  
@@ -120,8 +144,8 @@ This project demonstrates:
 - Dashboard UX optimization  
 - Debugging and data‑type correction skills  
 
+---
+
 It reflects the ability to move beyond basic revenue reporting and deliver integrated financial and operational intelligence.
 
-—
-
-*For any questions or collaboration opportunities, feel free to reach out!*
+> Note *For any questions or collaboration opportunities, feel free to reach out!*
